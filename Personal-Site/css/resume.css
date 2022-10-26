@@ -1,0 +1,130 @@
+body {
+    background-color: #1C2321;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-hr {
+    height: 10px;
+    width: 80%;
+    background-color: #6DA34D;
+    border: none;
+    margin-top: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    display: flex;
+    color: #F2F2F2;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 120px;
+    text-decoration: none;
+}
+
+a:hover {
+    display: flex;
+    color: #BA2D0B;
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 120px;
+    text-decoration: none;
+}
+
+.resume-name {
+    display: flex;
+    color: #F2F2F2;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 120px;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.top-left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    color: #F2F2F2;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.top-left-container p {
+    font-size: 1.5rem;
+    margin: 0px 0px 20px 0px;
+}
+
+.top-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #F2F2F2;
+    width: 70%;
+    gap: 30px;
+}
+
+.profile p {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+h2 {
+    display: flex;
+    align-items: flex-start;
+    color: #6DA34D;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.experience p {
+    font-size: 1.125rem;
+    text-align: left;
+    line-height: 1;
+}
+
+.education p {
+    font-size: 1.125rem;
+}
+
+.skills {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+ul {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 1.8;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    color: #F2F2F2;
+}
